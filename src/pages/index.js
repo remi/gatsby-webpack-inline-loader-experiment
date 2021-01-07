@@ -7,7 +7,7 @@ const IndexPage = () => (
   <>
     <p>Image in base64:</p>
     <img src={Icon} width="32" alt="" />
-    <p>Image as an URL:</p>
+    <p>Image loaded with file-loader:</p>
     <img src={StaticIcon} width="32" alt="" />
   </>
 )
